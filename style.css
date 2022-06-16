@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: verdana;
+}
+header{
+    width: 98.5%;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url(photos/architect.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    text-align: right;
+    box-shadow: 0px -3px 10px black;
+}
+.navlogo{
+    width: auto;
+    height: 39px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    display: block;
+    position: absolute;
+    top: 7.5px;
+    left: 15px;
+    text-align: center;
+    padding: 10px;
+}
+ul{
+    display: inline-block;
+    width: auto;;
+    height: inherit;
+    text-align: right;
+    padding: 7.5px;
+}
+li{
+    width: 125px;
+    height: 39px;
+    display: inline-block;
+}
+li a{
+    width: 125px;
+    height: 39px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-top: 9px;
+    display: block;
+}
+li a:hover, .navlogo:hover{
+    background-color: #ccc;
+}
+h1{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50vh;
+    left: 40%;
+    opacity: 0.9;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: 300;
+    text-shadow: 1px 1px black;
+}
+.logo{
+    padding: 10px;
+    background-color: black;
+    opacity: 0.75;
+}
+section{
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+h3{
+    width: 100%;
+    height: 120px;
+    margin: 10px auto;
+    margin-bottom: 60px;
+    padding-right: 10px;
+    padding-top: 70px;
+    font-weight: 300px;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.photo{
+    width: 360px;
+    height: 241px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    position: relative;
+}
+.title{
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    position: absolute;
+    top: 0;
+    left 0;
+    
+}
+.one{
+    background-image: url(photos/house1.jpg);
+}
+.two{
+    background-image: url(photos/house2.jpg);
+}
+.three{
+    background-image: url(photos/house3.jpg);
+}
+.four{
+    background-image: url(photos/house4.jpg);
+}
+.five{
+    background-image: url(photos/house2.jpg);
+}
+.six{
+    background-image: url(photos/house1.jpg);
+}
+.seven{
+    background-image: url(photos/house4.jpg);
+}
+.eight{
+    background-image: url(photos/house3.jpg);
+}
+.profile{
+    width: 360px;
+    height: auto;
+    display: inline-block;
+    margin-top: 50px;
+}
+.profile h3{
+    height: auto;
+    padding-top: 0;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 400;
+    border-bottom: 0px;
+}
+.job{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: grey;
+}
+.nine{
+    background-image: url(photos/john_doe.jpg);
+}
+.ten{
+    background-image: url(photos/jane_doe.jpg);
+}
+.eleven{
+    background-image: url(photos/mike_ross.jpg);
+}
+.twelve{
+    background-image: url(photos/dan%20star.jpg);
+}
+.button{
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(235, 235, 235);
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    height:100px;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: limegreen;
+}
